@@ -65,5 +65,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-app/app
-plugin/plugin
+/app/app
+/plugin/plugin

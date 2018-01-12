@@ -42,7 +42,7 @@ func startApp() {
 	// Call the Revert method.
 	fmt.Println("App: calling Reverse")
 
-	for i := 0; i < 500; i++ {
+	for i := 0; i < 5000; i++ {
 		t := time.Now()
 		var reverse string
 		err = client.Call("Plugin.Reverse", "Live on time, emit no evil", &reverse)
